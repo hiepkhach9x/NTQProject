@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Third Party -->
+    <string name="app_facebook_id">252705004896763</string>
+
+    <!-- Common -->
+    <string name="common_app_name">andG</string>
+    <string name="common_loading">Loading...</string>
+    <string name="common_logging_in">Logging in...</string>
+    <string name="common_settings">Settings</string>
+    <string name="common_save">Save</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_continue">Continue</string>
+    <string name="common_name">Name</string>
+    <string name="common_enter_name">&lt;Enter name&gt;</string>
+    <string name="common_birthday">Birthday</string>
+    <string name="common_required">&lt;Required&gt;</string>
+    <string name="common_gender">I\'m a</string>
+    <string name="common_interested_in">Interested in</string>
+    <string name="common_location">Location</string>
+    <string name="common_woman">凹</string>
+    <string name="common_man">凸</string>
+    <string name="common_men">凸</string>
+    <string name="common_women">凹</string>
+    <string name="common_men_and_women">凸 and 凹</string>
+    <string name="common_ok">OK</string>
+    <string name="common_email">Email</string>
+    <string name="common_enter_email">&lt;Enter email&gt;</string>
+    <string name="common_password">Password</string>
+    <string name="common_enter_password">&lt;Enter password&gt;</string>
+    <string name="common_done">Done</string>
+    <string name="common_friends">Friends</string>
+    <string name="common_friend">Friend</string>
+    <string name="common_backstage">Backstage Picture</string>
+    <string name="common_backstage_edit">Edit Your Backstage</string>
+    <string name="common_backstages">Backstage Pictures</string>
+    <string name="common_status_online">online</string>
+    <string name="common_status_offline">offline</string>
+    <string name="common_require">Required</string>
+    <string name="add_friends_title">Add Friends</string>
+    <string name="common_error">Error</string>
+    <string name="common_here">Here</string>
+    <string name="common_close">Close</string>
+    <string name="common_no_more_items_to_show">No more items to show.</string>
+    <string name="common_not_enough_points_title">Not Enough Points</string>
+    <string name="common_unlock_duration">Unlock for %1$s hours.</string>
+    <string name="common_unlock_for_targets">And so did %1$s other!</string>
+    <string name="common_unlock_suggest">Curious to find out who they are?</string>
+    <string name="common_mile_abbreviation">mi</string>
+    <string name="common_kilometer_abbreviation">km</string>
+    <string name="common_year_unit">y</string>
+    <string name="common_month_unit">mo</string>
+    <string name="common_week_unit">w</string>
+    <string name="common_day_unit">d</string>
+    <string name="common_hour_unit">h</string>
+    <string name="common_minute_unit">m</string>
+    <string name="common_second_unit">s</string>
+    <string name="common_now">now</string>
+
+    <!-- Sign Up -->
+    <string name="signup_sign_up">Sign Up</string>
+    <string name="signup_log_in">Log In</string>
+
+    <!-- Add Friends -->
+    <string name="add_friend">Add Friend</string>
+    <string name="add_friends">Add Friends</string>
+    <string name="add_friends_button">+ Add Friends</string>
+    <string name="add_friends_skip">Skip</string>
+    <string name="add_1_friend">Add 1 Friend</string>
+    <string name="add_n_friends">Add %1$d Friends</string>
+    <string name="add_friends_deselect_all">Deselect All</string>
+    <string name="add_friends_select_all">Select All</string>
+    <string name="add_friends_sms_msg">Send %1$d invites via SMS and earn up to %2$d\nPoints if they join!</string>
+    <string name="add_friends_sms_content">I sent you a message on andG\n%1$s</string>
+    <string name="add_friends_email_subject">I sent you a message on andG.</string>
+    <string name="add_friends_email_content">Hey! I\'m inviting you get andG, an amazing free IPhone and Android. Get it now from \n%1$s</string>
+    <string name="add_friends_email_msg">Send %1$d invites via email and earn up to %2$d\nPoints if they join!</string>
+    <string name="add_friends_invite_button_title">Invite</string>
+    <string name="add_friends_pending_button_title">Pending</string>
+    <string name="add_friends_chat_with_your_friends">Chat with your friends</string>
+    <string name="add_friends_chat_with_your_friends_content1">Show andG your group of friends.</string>
+    <string name="add_friends_chat_with_your_friends_content2">Earn %1$s points for each new friend!</string>
+
+    <!-- Log In -->
+    <string name="login">Login</string>
+    <string name="login_forgot">Forgot?</string>
+    <string name="login_login_button">Login</string>
+    <string name="login_failed_dialog_title">Login Failed!</string>
+    <string name="login_forgot_verify_dialog_title">Verify code</string>
+    <string name="login_forgot_send_verify_code_to_email">Send a verification code to email</string>
+    <string name="login_forgot_change_password">Change password</string>
+    <string name="account_locked_user">Account has been locked. Please contact administrator.</string>
+
+    <!-- Main Menu -->
+    <string name="menu_profile_points">Points</string>
+    <string name="tap_to_set_your_profile_picture">Tap to set your profile picture</string>
+    <string name="setup_profile">Setup Profile</string>
+    <string name="name_is_empty">Name is empty</string>
+    <string name="birthday_value_is_invalid">Birthday value is invalid</string>
+    <string name="require_age_is_higher_than_18">Require age is higher than 18</string>
+    <string name="email_is_empty">Email is empty.</string>
+    <string name="email_invalid_format">Email invalid format.</string>
+    <string name="creating_account_please_wait">Creating account, please wait...</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="password_length_must_than">Password must be between %1$s and %2$s characters!</string>
+    <string name="email_length_must_than">Email content must be less than %1$s characters!</string>
+    <string name="waiting">Waiting...</string>
+    <string name="meet_people">Search Friends</string>
+    <string name="buzz">Check the timeline</string>
+    <string name="buzz_edit_text_hint">What are you up to?</string>
+    <string name="look_at_me">Auction</string>
+    <string name="shake_to_chat">Shake to Chat</string>
+    <string name="my_profile">Profile</string>
+    <string name="connections">My Friends</string>
+    <string name="my_chats">Chats</string>
+    <string name="notifications">Notifications</string>
+    <string name="points">Points</string>
+    <string name="points_sliding">Points</string>
+    <string name="social_network">MISC</string>
+    <string name="share_my_buzz">Recent Report</string>
+    <string name="set_up_your_profile">Set up profile</string>
+    <string name="alert">Alert</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+    <string name="pull_to_load_more_pull_label">Pull to load more...</string>
+    <string name="pull_to_load_more_release_label">Release to load more...</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="title_textview_my_profile_edit">Edit Info</string>
+    <string name="title_textview_my_profile_share_pic">Share Picure</string>
+    <string name="title_textview_my_profile_share_status">Recent Report</string>
+    <string name="title_textview_my_profile_give_gift">Give Gift</string>
+    <string name="title_textview_user_profile_wink">Wink</string>
+    <string name="title_textview_user_profile_chat">Chat</string>
+    <string name="title_textview_user_profile_add_favorites">Add To Favorites</string>
+    <string name="title_textview_user_profile_remove_favorites">Remove From Favorites</string>
+    <string name="title_textview_user_profile_more">More</string>
+    <string name="search">Search</string>
+    <string name="who_checked_you_out">Who Checked You Out?</string>
+    <string name="wink_bomb">Wink Bomb</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+
+    <!-- My Profile -->
+    <string name="profile_title_the_basic">The Basics</string>
+    <string name="profile_the_basics_view_full_profile">View Full Profile</string>
+    <string name="profile_title_lastest_buzz">Lastest Buzz</string>
+    <string name="profile_title_lastest_gifts">Lastest Gifts</string>
+    <string name="profile_title_gender">Gender</string>
+    <string name="profile_title_the_age">Age</string>
+    <string name="profile_title_the_location">Location (Auto)</string>
+    <string name="profile_title_the_interested_in">Interested In</string>
+    <string name="profile_title_the_looking_for">Looking For</string>
+    <string name="profile_title_the_about_me">About Me</string>
+    <string name="profile_title_extended_info">Extended Info</string>
+    <string name="profile_title_relationship_status">Relationship status</string>
+    <string name="profile_title_body_type">Body Type</string>
+    <string name="profile_title_height">Height</string>
+    <string name="profile_title_ethnicity">Ethnicity</string>
+    <string name="profile_title_interests">Interests</string>
+    <string name="profile_title_ask_me">Ask me</string>
+    <string name="dialog_profile_more_block_user">Block User</string>
+    <string name="dialog_profile_more_unblock_user">Unblock User</string>
+    <string name="dialog_profile_more_manage_online_alert">Manage Online Alert</string>
+    <string name="dialog_profile_more_report_user">Report User</string>
+    <string name="dialog_profile_more_remove_friend">Remove Friend</string>
+    <string name="dialog_profile_more_remove_friend_content">Are you sure?</string>
+    <string name="profile_add_to_favorites_title">@string/title_textview_user_profile_add_favorites</string>
+    <string name="profile_add_to_favorites_message">You added %1$s to your Favorites. Do you give %2$s a gift?</string>
+    <string name="profile_remove_from_favorites_title">@string/title_textview_user_profile_remove_favorites</string>
+    <string name="profile_remove_from_favorites_message">You removed %1$s from Your Favorites.</string>
+    <string name="profile_user_friends_title">%1$s\'s Friends</string>
+    <string name="profile_user_friends_no_item">%1$s has not any friends.</string>
+    <string name="profile_winked">Winked</string>
+    <string name="profile_dialog_msg_wink">You winked at %1$s.</string>
+    <string name="profile_the_basics_view_full_gift">View All Gift</string>
+
+    <!-- Edit My Profile -->
+    <string name="edit_my_profile_title">Edit Profile</string>
+    <string name="edit_my_profile_title_nav_left">@string/common_cancel</string>
+    <string name="edit_my_profile_title_nav_right">@string/common_save</string>
+
+    <!-- Dialog Height -->
+    <string name="edit_my_profile_dialog_height_title">Choose yours height</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_logout_dialog_title">Are you sure?</string>
+    <string name="settings_logout_dialog_content">Are you sure want to logout?</string>
+    <string name="settings_chat_and_notifications">Chat and Notification Settings:</string>
+    <string name="settings_chat_and_notifications_sound_on">Sound On</string>
+    <string name="settings_chat_and_notifications_vibration_on">Vibration On</string>
+    <string name="settings_chat_and_notifications_notifications">Notifications</string>
+    <string name="settings_chat_and_notifications_notifications_email">Email notifications</string>
+    <string name="settings_chat_and_notifications_notifications_send_email">Send email</string>
+    <string name="settings_chat_and_notifications_notifications_push">Push notifications</string>
+    <string name="settings_chat_and_notifications_notifications_push_chat">Chat messages</string>
+    <string name="settings_chat_and_notifications_notifications_push_chat_all">All</string>
+    <string name="settings_chat_and_notifications_notifications_push_chat_none">None</string>
+    <string name="settings_chat_and_notifications_notifications_push_chat_friend_and_favorites">Friends and Favorites only</string>
+    <string name="settings_chat_and_notifications_notifications_push_check_out">Someones checks me out</string>
+    <string name="settings_chat_and_notifications_notifications_push_update_buzz">Buzz related to me</string>
+    <string name="settings_chat_and_notifications_notifications_push_my_submissions">My submissions</string>
+    <string name="settings_chat_and_notifications_notifications_push_andg_alerts">andG Alerts</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_account_distance">Distance in</string>
+    <string name="settings_account_distance_in">Distance in %1$s</string>
+    <string name="settings_account_distance_miles">Miles</string>
+    <string name="settings_account_distance_kilometers">Kilometers</string>
+    <string name="settings_account_change_email">Change Email</string>
+    <string name="settings_account_change_password">Change Password</string>
+    <string name="settings_account_block_users">Blocked Users</string>
+    <string name="settings_account_block_users_list_is_empty">Your blocked users list is empty.</string>
+    <string name="settings_account_deactivate">Deactivate Account</string>
+    <string name="settings_account_deactivate_confirm_message">        If you just want to remove the andG 
+        application but would like to continue using andG through 
+        %1$s, please do not deactivate your account. Instead, 
+        simple remove the application without deactivating it.</string>
+    <string name="settings_account_deactivate_confirm_no">Don\'t deactivate, I want andG</string>
+    <string name="settings_account_deactivate_confirm_yes">Deactivate my andG account</string>
+    <string name="settings_account_deactivate_message_line1">We\'re sorry to see you go!</string>
+    <string name="settings_account_deactivate_message_line2">What could we have done better?</string>
+    <string name="settings_account_deactivate_alert">Please enter your comments before continuing</string>
+    <string name="settings_account_deactivate_action">Deactivate</string>
+    <string name="settings_account_rate">Rate andG</string>
+    <string name="settings_terms_of_service">Terms of Service</string>
+    <string name="settings_terms_of_service_terms_of_service">Terms of Service</string>
+    <string name="settings_terms_of_service_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms_of_service_terms_of_use">Terms of Use</string>
+    <string name="settings_terms_of_service_version">Version %1$s</string>
+    <string name="end_of_list">End of list</string>
+    <string name="loading">@string/common_loading</string>
+    <string name="logout">Logout</string>
+    <string name="logout_success">Logout success</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="new_password_and_confirm_password_not_same">New password and confirm password not same</string>
+    <string name="old_password_is_empty">Old password is empty</string>
+    <string name="change_password_success">Change password success</string>
+    <string name="sending">Sending...</string>
+    <string name="send">Send</string>
+    <string name="send_email">Send email...</string>
+    <string name="send_email_success">Send email success</string>
+    <string name="type_new_password">Type a new password</string>
+    <string name="type_verify_code">Type a verify code</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="verify_code_empty">Verify code empty</string>
+    <string name="send_code">Send code</string>
+    <string name="complete_registration_content">By clicking "Done", you agree to the %1$s and %2$s. Read our %3$s.</string>
+    <string name="complete_registration_terms_of_service">Terms of Service</string>
+    <string name="complete_registration_privacy_policy">Privacy Policy</string>
+    <string name="complete_registration_terms_of_use">Terms of Use</string>
+
+    <!-- Search Setting -->
+    <string name="search_setting_show_me">Show me...</string>
+    <string name="search_setting_interested_in">interested in...</string>
+    <string name="search_setting_location">that are within...</string>
+    <string name="search_setting_age">of ages between</string>
+    <string name="search_setting_ethnicity">of ethnicity</string>
+    <string name="toggle_button_group_women_button">凹</string>
+    <string name="toggle_button_group_men_button">凸</string>
+    <string name="toggle_button_group_both_button">Both</string>
+    <string name="toggle_button_group_near_button">Near</string>
+    <string name="toggle_button_group_city_button">City</string>
+    <string name="toggle_button_group_state_button">State</string>
+    <string name="toggle_button_group_country_button">Country</string>
+    <string name="toggle_button_group_world_button">World</string>
+    <string name="search_setting_title">Search Setting</string>
+    <string name="search_setting_navigator_left">Cancel</string>
+    <string name="search_setting_navigator_right">Search</string>
+    <string name="search_setting_loading_dialog">Please wait...</string>
+    <string name="search_setting_show_me_women">凹</string>
+    <string name="search_setting_show_me_men">凸</string>
+    <string name="search_setting_show_me_both">Both</string>
+    <string name="search_setting_interested_in_women">凹</string>
+    <string name="search_setting_interested_in_men">凸</string>
+    <string name="search_setting_interested_in_both">Both</string>
+    <string name="search_setting_location_near">Near</string>
+    <string name="search_setting_location_city">City</string>
+    <string name="search_setting_location_state">State</string>
+    <string name="search_setting_location_country">Country</string>
+    <string name="search_setting_location_world">World</string>
+    <string name="search_setting_age_between_and">and</string>
+
+    <!-- ETHNICITY -->
+    <string name="ethnicity_title">Search Ethnicity</string>
+    <string name="ethnicity_navigator_left">@string/common_cancel</string>
+    <string name="ethnicity_navigator_right">@string/common_done</string>
+
+    <!-- DIALOG AGE MIN AND MAX -->
+    <string name="dialog_age_min_and_max_title">of age between</string>
+    <string name="send_mail_invite_friends">Send mail invite friends</string>
+    <string name="message_is_sent">Message is sent</string>
+    <string name="empty_friends">        Show andG your group of friends.
+		\nFriends are the people you know outside of andG
+		\nAdd friends from Facebook and address book contacts</string>
+    <string name="empty_favorites">You currently don\'t have any Favorites. Add people you enjoy chatting with to you Favorites.</string>
+    <string name="empty_whofavorites">No one has favorited you.</string>
+    <string name="empty_whochechyouout">No one has checked you out.</string>
+    <string name="confirm">Confirm</string>
+    <string name="not_now">Not Now</string>
+
+    <!-- Who check you out -->
+    <string name="no_one_has_checked_you_out">No one has checked you out.</string>
+    <string name="favorites_buzz">Favorites Buzz</string>
+
+    <!-- Item in MeetPeople -->
+    <string name="male">凸</string>
+    <string name="female">凹</string>
+    <string name="online">online</string>
+    <string name="offline">offline</string>
+    <string name="yo">yo</string>
+
+    <!-- Upload image to server -->
+    <string name="uploading_image">Uploading image...</string>
+    <string name="upload_fail">Upload fail, try again</string>
+    <string name="upload_success">Upload success</string>
+
+    <!-- detail picture profile -->
+    <string name="see_all">See All</string>
+    <string name="panel_bottom_detail_comment">Comments</string>
+    <string name="panel_bottom_detail_like">Like</string>
+    <string name="panel_bottom_detail_unlike">Unlike</string>
+    <string name="panel_bottom_detail_view_profile">View Profile</string>
+    <string name="panel_bottom_detail_change_profile_pic">Change profile pic</string>
+    <string name="panel_bottom_detail_set_as_profile_pic">Set as profile pic</string>
+    <string name="panel_bottom_detail_save_pic">Save pic</string>
+    <string name="panel_bottom_detail_delete_pic">Delete pic</string>
+    <string name="panel_bottom_detail_report_pic">Report pic</string>
+    <string name="detail_picture_title">%1$s of %2$s</string>
+
+    <!-- Sliding menu right -->
+    <string name="sliding_menu_right_top_txt_add_friend">Add Friends</string>
+    <string name="sliding_menu_right_top_txt_edit">Delete History</string>
+    <string name="sliding_menu_right_top_txt_mark_readed">Mark All as Readed</string>
+    <string name="sliding_menu_right_top_txt_delete_all">Delete All</string>
+    <string name="sliding_menu_right_top_txt_done">Done</string>
+    <string name="sliding_menu_right_item_button_delete">Delete</string>
+
+    <!-- Error -->
+    <string name="add_friends_sms_error">There is an error when sending SMS.</string>
+    <string name="add_friends_email_error">There is an error when sending email.</string>
+    <string name="msg_common_server_unknown_error">There is an unknown error on server.</string>
+    <string name="error_age_min_bigger_max">Min age bigger than max age! Please check</string>
+    <string name="title_error_user_age">Age error!</string>
+    <string name="msg_common_can_not_connect_to_server">Cannot connect to the host, please try again later.</string>
+    <string name="msg_common_no_connection">Network error, please check your connection and try again.</string>
+    <string name="msg_common_no_data">No data.</string>
+    <string name="msg_common_unknown_error">Unknown error.</string>
+    <string name="msg_common_parse_json_error">Parse json error.</string>
+    <string name="msg_common_email_not_found">Email not found.</string>
+    <string name="msg_common_email_has_already">Email has already exist.</string>
+    <string name="msg_common_invalid_username">Invalid Username</string>
+    <string name="msg_common_invalid_email">Invalid email.</string>
+    <string name="msg_common_invalid_token">Invalid token.</string>
+    <string name="msg_common_invalid_password">Invalid password.</string>
+    <string name="msg_common_password_is_incorrect">Email or Password is incorrect.</string>
+    <string name="msg_common_send_email_fail">Send email fail.</string>
+    <string name="msg_common_incorrect_code">Incorrect code.</string>
+    <string name="msg_common_data_format_wrong">Data format wrong.</string>
+    <string name="msg_common_registed_fail">Registed fail! Please try again later.</string>
+    <string name="msg_common_error_authen_chatserver">Authenticate with chat server error.</string>
+    <string name="no_internet">No internet</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="action_is_not_performed">This action was not performed.</string>
+    <string name="dialog_error_not_found_gallery_title">Gallery not found</string>
+    <string name="dialog_error_not_found_gallery_content">Could not found the device gallery</string>
+
+    <!-- PREPARE DATA -->
+    <string name="unknown">Unknown</string>
+    <string name="image_desciption">image desciption</string>
+    <string name="saving_image">Saving image</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="message_location_disable">Your GPS seems to be disabled, do you want to enable it?</string>
+
+    <!-- fragmentchat.xml -->
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="report">Report</string>
+    <string name="emoji">EMOJI</string>
+    <string name="stickers">STICKERS</string>
+    <string name="message_wink">%1$s just *winked* at you! What\'s up?</string>
+    <string name="message_wink_2">You just *winked* at %1$s! What\'s up?</string>
+    <string name="typing">Typing...</string>
+    <string name="chat_select_location">Share location</string>
+    <string name="chat_item_share_a_location">Share a location</string>
+    <string name="chat_screen_block_dialog_title">Block</string>
+    <string name="chat_screen_block_dialog_message">Do you want to block %1$s?</string>
+    <string name="chat_screen_unblock_dialog_title">Unblock</string>
+    <string name="chat_screen_unblock_dialog_message">Do you want to unblock %1$s?</string>
+    <string name="chat_screen_hidden_user_not_show">Say hello and start chatting - We will reveal your profiles in 40 seconds.</string>
+    <string name="chat_screen_hidden_user_show">Having a great chat? Add %1$s to Favorites! Want to meet more people? Get shaking!</string>
+    <string name="chat_screen_hidden_user_add_to_favorites">Add To Favorites</string>
+    <string name="chat_screen_hidden_user_shake_again">Shake Again</string>
+    <string name="chat_screen_hidden_user_view_buzz">View %1$s\'s buzz</string>
+    <string name="chat_screen_hidden_user_name">Anonymous</string>
+
+    <!-- title in connection -->
+    <string name="connection_title_friends">Friends</string>
+    <string name="connection_title_favorites">Favorites</string>
+    <string name="connection_title_who_favorites_me">Who Favorited Me?</string>
+    <string name="connection_tab_who_favorites_me">Who?</string>
+    <string name="connection_tab_friends">Friends</string>
+    <string name="connection_tab_favorites">Favorites</string>
+    <string name="require_a_sdcard">Require a SDCard</string>
+    <string name="take_from_camera">Take from camera</string>
+    <string name="select_from_gallery">Select from gallery</string>
+    <string name="gallery_title">Gallery %1$s</string>
+    <string name="no_more_items_to_show">No more items to show.</string>
+    <string name="ok">OK</string>
+    <string name="reset_your_password">Reset Your Password</string>
+    <string name="please_enter_the_e_mail_you_signed_up_with">Please enter the e-mail you signed up with:</string>
+    <string name="sticker">Sticker</string>
+    <string name="not_found_sticker">Not found Sticker</string>
+    <string name="unread_message_max">20+</string>
+    <string name="no_address_found">No address found</string>
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="dialog_confirm_delete_pictuer_title">Delete picture.</string>
+    <string name="dialog_confirm_delete_picture_content">Do you want to delete this picture?</string>
+    <string name="dialog_confirm_delete_picture_content_empty">You do not have image to delete.</string>
+    <string name="dialog_confirm_delete_picture_negative_button">OK</string>
+    <string name="dialog_confirm_delete_picture_positive_button">Cancel</string>
+    <string name="dialog_confirm_report_pictuer_title">Report Picture</string>
+    <string name="dialog_confirm_report_user_title">Report User</string>
+    <string name="dialog_confirm_report_picture_content">Thanks for your report! It will be reviewed by our staff shortly.</string>
+    <string name="dialog_confirm_report_user_content">Thank you for reporting this user. It will be reviewed by our staff.</string>
+    <string name="dialog_confirm_report_picture_content_empty">Do not have any image to report.</string>
+    <string name="dialog_confirm_report_picture_negative_button">OK</string>
+    <string name="dialog_confirm_report_picture_positive_button">Cancel</string>
+    <string name="dialog_image_not_found_title">Image not found.</string>
+    <string name="dialog_image_not_found_content">This buzz has been deleted!</string>
+    <string name="dialog_backstage_not_found_content">Image not found</string>
+    <string name="dialog_image_not_found_negative_button">OK</string>
+    <string name="connection_unlock_who_favorite_me_someone">This person has favorited you!</string>
+    <string name="connection_unlock_who_favorite_your_balance">Your Balance:</string>
+    <string name="connection_unlock_who_favorite_unlock">Unlock:</string>
+    <string name="connection_unlock_who_favorite_top_up_your_points">Top Up Your Points</string>
+    <string name="meet_people_unlock_who_check_me_out_someone">This person has checked you out!</string>
+    <string name="meet_people_wink_bomb">Wink Bomb</string>
+    <string name="meet_people_wink_bomb_select_your_greeting">Select your greeting</string>
+    <string name="meet_people_wink_bomb_reach_out_to">Reach out to &lt;font color=\"#8AB442\"&gt;%1$s&lt;/font&gt; %2$s</string>
+    <string name="meet_people_wink_bomb_select_message">Select Message</string>
+    <string name="meet_people_wink_bomb_not_enough_points_msg">You need %1$s Points to send %2$s winks. You currently have %3$s. Do you want to top up your points?</string>
+    <string name="connection_check_out_not_enough_points_msg">You need %1$s Points to unlock. You currently have %2$s. Do you want to top up your points?</string>
+    <string name="connection_locked_feature">This function has been locked.</string>
+
+    <!-- Buzz -->
+    <string name="buzz_list_tab_local">Local</string>
+    <string name="buzz_list_tab_friends">Friends</string>
+    <string name="buzz_list_tab_favorites">Favorites</string>
+    <string name="item_buzz_list_show_more_responses">Show more responses...</string>
+    <string name="item_buzz_list_owner_received_a_gift">%1$s received a gift</string>
+    <string name="share_my_buzz_title">Recent Report</string>
+    <string name="share_my_buzz_sharing_off">Sharing off</string>
+    <string name="share_my_buzz_sharing_on">Turn on sharing</string>
+    <string name="share_my_buzz_hint">Share something...</string>
+    <string name="share_my_buzz_hint_picture">What\'s happening in this picture?</string>
+    <string name="share_my_buzz_time">0 s</string>
+    <string name="share_my_buzz_location">here</string>
+    <string name="buzz_responses">Detail</string>
+    <string name="buzz_no_more_to_show">No more buzz to show.</string>
+    <string name="buzz_list_new_buzz_text_hint">What\'s up?</string>
+    <string name="buzz_item_not_found">This buzz has been deleted.</string>
+    <string name="friends_buzz_footer_message">Add Friends from Facebook and your Contacts to chat with them on andG</string>
+    <string name="favorites_buzz_footer_message">You currently don\'t have any Favorites. Add people you enjoy chatting with to your Favorites</string>
+
+    <!-- Location -->
+    <string name="location_not_found">Not found address</string>
+    <string name="give_gift_all_title">All</string>
+    <string name="send_gift_confirm_title">Confirm Gift</string>
+    <string name="send_gift_confirm_message">Are you sure you want to give the \'%1$s\' gift to %2$s?</string>
+    <string name="send_gift_confirm_title_success">Success!</string>
+    <string name="send_gift_confirm_message_success">You gave the gift \'%1$s\' to %2$s</string>
+    <string name="send_gift_not_enough_points_msg">You need %1$s Points to by this gift. You currently %2$s. Do you want to top up you points?</string>
+    <string name="confirm_delete_all_messages">Are you sure you want to delete all messages?</string>
+    <string name="confirm_mark_all_readed">Are you sure you want to mark all messages as read?</string>
+    <string name="item_profile_info_view_all_buzz">View All Buzz</string>
+    <string name="item_profile_info_view_no_buzzes">No Buzz</string>
+    <string name="item_profile_info_view_no_gifts">No Gift</string>
+    <string name="choose_crop_app">Choose Crop App</string>
+    <string name="can_not_find_image_crop_app">Can not find image crop app</string>
+    <string name="recorder_hold_to_talk">Hold to Talk</string>
+    <string name="recorder_release_to_send">Release to Send</string>
+    <string name="recorder_release_to_delete">Release to Delete</string>
+    <string name="recorder_drag_to_delete">Drag to delete</string>
+    <string name="sent_a_picture">Sent a picture</string>
+    <string name="sent_a_audio">Sent a voice message</string>
+    <string name="sent_a_video">Sent a video</string>
+    <string name="an_error_occurred_while_send_file">An error occurred while sending file. Please try again later!</string>
+    <string name="an_error_occurred_while_download_file">An error occurred while downloading file. Please try again later!</string>
+    <string name="sent_file">Sent file</string>
+    <string name="download_file">Download file</string>
+    <string name="save_dialog_confirm_title">Save Picture</string>
+    <string name="save_dialog_confirm_content">Do you want to save this picture to your phone for just %1$s points?</string>
+    <string name="save_dialog_confirm_content_0_points">Do you want to save this picture?</string>
+    <string name="save_dialog_invalid_content">Picture not found! Can not save pic</string>
+    <string name="save_dialog_external_storage_not_exist_content">Your external storage not exist</string>
+    <string name="save_dialog_confirm_negative">Yes!</string>
+    <string name="save_dialog_confirm_positive">No,Thanks</string>
+    <string name="save_dialog_title">Save</string>
+    <string name="save_dialog_ok">Save done</string>
+    <string name="save_dialog_error">Save error</string>
+    <string name="change_avata_dialog_title">Confirm</string>
+    <string name="change_avata_dialog_content">Do you really want to set this picture is avatar picture?</string>
+    <string name="change_avata_negative_button">Yes!</string>
+    <string name="change_avata_positive_button">No, thanks.</string>
+    <string name="choose_a_photo">Choose a photo</string>
+    <string name="take_video">Take a video</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="choose_a_video">Choose a video</string>
+    <string name="audio_message">Audio Message</string>
+    <string name="share_location">Share location</string>
+    <string name="previous_photo">Previous Photo</string>
+    <string name="send_gift">Send Gift</string>
+    <string name="send_gift_message">Sending gift...</string>
+
+    <!-- Image picker -->
+    <string name="can_not_select_image">Can not select that image.</string>
+
+    <!-- Video picker -->
+    <string name="can_not_select_video">Video must has duration less than 90s</string>
+    <string name="gift_message_value_format">%1$s|%2$s|%3$s</string>
+    <string name="gift_message_display_format">A gift from %1$s to %2$s!</string>
+    <string name="gift_message_display_send">Sent a gift</string>
+    <string name="gift_message_display_recieve">Receive a gift</string>
+
+    <!-- LookAtMe -->
+    <string name="feature_me">Feature Me</string>
+    <string name="look_at_me_description">Play Look At Me! Place a strong bid, meet tons of people and beat your competition. Bids last for %1$s hours. Be on top of your game, check in often.&lt;br>&lt;br> &lt;b>Current 1st position bid is %2$s points. &lt;/b> &lt;br> &lt;b>Bottom place is %3$s points.&lt;/b></string>
+    <string name="place_this_bid">Place this bid!</string>
+    <string name="sucess_place_point">You place a bid for %1$s points.</string>
+    <string name="sucess_place_point_title">Success!</string>
+    <string name="confirm_place_point">Are you sure want to place a bid %1$s points?</string>
+    <string name="confirm_place_point_title">Confirm Bid</string>
+    <string name="place_bid">Join to Auction</string>
+    <string name="remain_m">%1$s m</string>
+    <string name="remain_h">%1$s h</string>
+    <string name="remain_full_m">%1$s m remaining</string>
+    <string name="remain_full_h">%1$s h remaining</string>
+    <string name="not_enought_points_title">Not enought points</string>
+    <string name="not_enought_points_msg">You need %1$s Points to place this bid. You currently have %2$s. Do you want to top up your points?</string>
+    <string name="activity_manage_backstage_title">Backstage</string>
+    <string name="activity_manage_backstage_my_title">Edit Your Backstage</string>
+    <string name="activity_manage_backstage_my_title_number">%1$s Backstage picture</string>
+    <string name="activity_manage_backstage_my_title_numbers">%1$s Backstage pictures</string>
+    <string name="activity_manage_backstage_add_pic">Add Pic</string>
+    <string name="activity_manage_backstage_price">Price:</string>
+    <string name="activity_manage_backstage_price_default">0</string>
+    <string name="activity_manage_backstage_price_desciption">(You earn &lt;font color=\"#FFFF00\" &gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt; per unlock)</string>
+    <string name="activity_manage_backstage_price_please">Unlock backstage for %2$s hours!</string>
+    <string name="activity_manage_backstage_price_unlocked">Backstage unlocked for %1$s hours!</string>
+    <string name="activity_manage_backstage_rating_desciption">Rating (based on %1$s review):</string>
+    <string name="activity_manage_backstage_rating_desciptions">Rating (based on %1$s reviews):</string>
+    <string name="activity_manage_backstage_rating_please">Please tap a star to rate it</string>
+    <string name="activity_manage_backstage_unlock_price_button">Set Unlock Price</string>
+    <string name="activity_manage_backstage_unlock_price_button_please">Unlock: %1$s Points</string>
+    <string name="activity_manage_backstage_unlock_price_desciption">%1$s will earn %2$s Points</string>
+    <string name="activity_manage_backstage_unlock_price_dialog_desciption">%1$s &lt;font color=\"#888888\"&gt;(You will earn %2$s Points)&lt;/font&gt;</string>
+    <string name="unapproved_image_dialog_title">Avatar Picture Posted</string>
+    <string name="unapproved_image_dialog_content">This Avatar picture will be reviewed by our staff and be visible	to others shortly.</string>
+    <string name="activity_manage_backstage_dialog_title">Backstage Picture Posted</string>
+    <string name="activity_manage_backstage_dialog_content">This backstage picture will be reviewed by our staff and be
+			visible to others shortly.</string>
+    <string name="activity_manage_backstage_dialog_unlock_time_out_content">You can not access this backstage</string>
+    <string name="activity_manage_backstage_dialog_not_enough_points_content">You need %1$s Points to unlock. You currently have %2$s. Do you want to top up your points?</string>
+    <!-- ChatFragment -->
+    <string name="confirm_send_previous_photo_msg">Do you want to share this picture?</string>
+    <string name="chat_share_location_undefined_location_title">Location Data</string>
+    <string name="chat_share_location_undefined_location_message">andG is unable to locate your position. 
+        Please go to \"Settings Location\" and enable \"User wireless networks\" and \"Use GPS satellites\".</string>
+    <string name="chat_share_location_undefined_location_skip">Skip</string>
+    <string name="chat_share_location_undefined_location_settings">Settings</string>
+
+    <!-- Setting notification -->
+    <string name="andg_alers">andG Alerts</string>
+    <string name="updates_to_my_buzz">Buzz related to me</string>
+    <string name="someone_checks_me_out">Someone checks me out</string>
+    <string name="chat_messages">Chat Messages</string>
+    <string name="friends_and_favorites_only">Friends and Favorites only</string>
+    <string name="dialog_video_record_limit_time_title">Record limit time</string>
+    <string name="dialog_video_record_limit_time_content">You can only record max %1$s seconds</string>
+    <string name="dialog_error_video_record_limit_time_title">Record limit time</string>
+    <string name="dialog_error_video_record_limit_time_content">Record error! Your record time too much.</string>
+
+    <!-- Notification list -->
+    <string name="notification_title">Notifications</string>
+    <string name="checkout_lock_notification">Someone checked you out</string>
+    <string name="checkout_unlock_notification">%1$s checked you out</string>
+    <string name="favorite_lock_notification">Someone has favorited you</string>
+    <string name="favorite_unlock_notification">%1$s has favorited you</string>
+    <string name="buzz_liked_to_notification">%1$s liked to your Buzz</string>
+    <string name="buzz_also_liked_notification">%1$s also liked %2$s\'s Buzz</string>
+    <string name="buzz_responded_to_notification">%1$s responded to your Buzz</string>
+    <string name="buzz_also_responded_to_notification">%1$s also responded %2$s\'s Buzz</string>
+    <string name="unlocked_backstage_notification">%1$s unlocked your backstage, you earned %2$s points</string>
+    <string name="unlocked_backstage_notification_no_point">%1$s unlocked your backstage</string>
+    <string name="friend_notification">%1$s is now your friend on andG. You earned %2$s points from friend invites</string>
+    <string name="friend_notification_no_point">%1$s is now your friend on andG</string>
+    <string name="came_online_notification">%1$s came online</string>
+    <string name="came_online_notification_bottom">%1$s came online</string>
+    <string name="earned_point_notification">You earned %1$s daily free points</string>
+    <string name="congratulation_notification">Congratulation, you have reached to %1$s position of Auction</string>
+    <string name="come_notification">came online</string>
+    <string name="trouble_notification">Trouble</string>
+    <string name="saving_preferences">Saving Preferences...</string>
+
+    <!-- Distance setting -->
+    <string name="distance_in">Distance In</string>
+
+    <!-- Common -->
+    <string name="common_success">Success</string>
+    <string name="common_fail">Fail</string>
+
+    <!-- MeetPeople -->
+    <string name="meetpeople_not_found_by_search">Search Friends cannot find any matches. Please adjust your Search preferences.</string>
+
+    <!-- Point -->
+    <string name="point_title_who">Who Checked Me Out?</string>
+    <string name="point_title_look">Auction</string>
+    <string name="point_title_wink">Wink Boom</string>
+    <string name="point_title_favourite">Who Favorited Me?</string>
+    <string name="point_title_gift">Send Gift</string>
+    <string name="point_des_who">Curious to see who’s viewed your profile?  Unlock to find out!</string>
+    <string name="point_des_look">Get noticed by millions! Enter your bid to be displayed on top of the Auction wall.</string>
+    <string name="point_des_wink">Send a message to hundreds of people at once  with a Wink Bomb!</string>
+    <string name="point_des_favourite">Find out who likes chatting to you and added  you as a Favorite</string>
+    <string name="point_des_gift">Send virtual gifts as ice breakers, for the holidays,  and for </string>
+    <string name="your_total_points">Your Total Points</string>
+    <string name="buy_points">Buy Points</string>
+    <string name="price">%1$s for %2$s</string>
+
+    <!-- Purchase point -->
+    <string name="purchase_already_perform">Purchase already performed.</string>
+    <string name="waiting_for_add_point">Waiting for add point</string>
+    <string name="billing_unavaiable">Billing service unavailable on device.</string>
+    <string name="noti_new_chat_msg_text">You got a message</string>
+    <string name="noti_new_chat_msg_photo">You got a photo</string>
+    <string name="noti_new_chat_msg_video">You got a video</string>
+    <string name="noti_new_chat_msg_audio">You got a voice message</string>
+    <string name="noti_new_chat_msg_sticker">You got a sticker</string>
+    <string name="noti_new_chat_msg_location">You got a location</string>
+    <string name="noti_gave_gift">You got a gift</string>
+    <string name="can_not_purchase_try_again">Can not purchase, try again.</string>
+
+    <!-- Shake To Chat -->
+    <string name="shake_to_chat_title">Random Chat</string>
+    <string name="shake_to_chat_header_message">We coundn\'t find any Shakers...</string>
+    <string name="shake_to_chat_footer_message_start_shake">Shake to Chat Now!</string>
+    <string name="shake_to_chat_footer_message_searching">Searching...</string>
+    <string name="shake_to_chat_footer_message_end_shake">%1$s was shaking recently. Tap to chat or shake again!</string>
+    <string name="shake_to_chat_message">"Shake to Chat Alert: I'm online and ready to chat!"</string>
+
+    <!-- Manage online alert -->
+    <string name="fragment_manage_online_alert_title">Manage Online Alert</string>
+    <string name="fragment_manage_online_alert_text_description">Get an alert notification when %1$s goes online.</string>
+    <string name="fragment_manage_online_alert_text_intruction">Each alert is only %1$s points, and will be deducted from your account as they happen</string>
+    <string name="fragment_manage_online_alert_text_title1">When do you want to be alerted?</string>
+    <string name="fragment_manage_online_alert_text_title2">How do you want to be alerted?</string>
+    <string name="fragment_manage_online_alert_text_set_alert">Set alert</string>
+    <string name="fragment_manage_online_alert_confirm_title">Online Alert</string>
+    <string name="fragment_manage_online_alert_confirm_content_never">You will no longer receive online alert for %1$s</string>
+    <string name="fragment_manage_online_alert_confirm_content_other">Great, we will alert you %1$s when %2$s goes online. Each alert will cost %3$s points.</string>
+    <string name="online_alert_enabled">Online alert enabled!</string>
+
+    <!-- (option) When do you want to be alerted? -->
+    <string name="fragment_manage_online_alert_noti_never_alert_me">Never alert me</string>
+    <string name="fragment_manage_online_alert_noti_every_time">Every time</string>
+    <string name="fragment_manage_online_alert_noti_max_ten">Max 10 times per day</string>
+    <string name="fragment_manage_online_alert_noti_max_five">Max 5 times per day</string>
+    <string name="fragment_manage_online_alert_noti_max_once_perday">Max once per day</string>
+
+    <!-- (option) How do you want to be alerted? -->
+    <string name="fragment_manage_online_alert_email_and_push_notification">Email and Push Notification</string>
+    <string name="fragment_manage_online_alert_push_notifcation_only">Push Notification only</string>
+    <string name="fragment_manage_online_alert_email_only">Email only</string>
+
+    <!-- title when download file -->
+    <string name="picture_downloading">Picture is downloading...</string>
+    <string name="new_notifications">%1$s New Notifications</string>
+    <string name="new_notifications_welcome_back">Welcome Back</string>
+    <string name="new_notifications_what_is_new_since_last_time">What\'s new since last time</string>
+
+    <!-- Add friends activity -->
+    <string name="tab_contact">Contacts</string>
+    <string name="tab_facebook">Facebook</string>
+
+    <!-- Viceo Call / Video Call -->
+    <string name="view_profile">View Profile</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="video_call">Video Call</string>
+    <string name="ringing">Ringing</string>
+    <string name="andG_call">andG Call</string>
+    <string name="voip_action_none">VoIP</string>
+    <string name="voip_action_voice_start">Voice call started</string>
+    <string name="voip_action_voice_end">Voice call ended</string>
+    <string name="voip_action_voice_end_no_answer">Voice call ended - no answer</string>
+    <string name="voip_action_voice_end_busy">Voice call ended - busy</string>
+    <string name="voip_action_video_start">Video call started</string>
+    <string name="voip_action_video_end">Video call ended</string>
+    <string name="voip_action_video_end_no_answer">Video call ended - no answer</string>
+    <string name="voip_action_video_end_busy">Video call ended - busy</string>
+    <string name="voip_not_register_sip_server_title">Did not register with SIP Server</string>
+    <string name="voip_not_register_sip_server_message">Please try again later!</string>
+
+    <!-- User is blocked, or not exist -->
+    <string name="unit_cm">cm</string>
+
+    <plurals name="unit_inch_avaiable">
+        <item quantity="one">inch</item>
+        <item quantity="other">inches</item>
+    </plurals>
+    <plurals name="unit_feet_avaiable">
+        <item quantity="one">foot</item>
+        <item quantity="other">feet</item>
+    </plurals>
+
+    <!-- notification -->
+    <string name="notification_username_default">Someone</string>
+    <string name="share_fb_fail">Share buzz to facebook failure</string>
+    <string name="share_fb_success">Share buzz to facebook success</string>
+
+    <!-- block and deactive -->
+    <string name="user_blocked">Cannot access this function now, please try again later!</string>
+    <string name="user_deactive">Cannot access this function now, please try again later!</string>
+
+    <!-- chat -->
+    <string name="chat_video_downloading">Video is downloading</string>
+    <string name="default_time">00:00</string>
+    <string name="can_not_play_file">Can not play this file.</string>
+    <string name="can_not_play_file_not_found">File not found, can not play this file.</string>
+    <string name="chat_audio_downloading">Audio is downloading</string>
+    <string name="chat_audio_receive">Audio is downloaded</string>
+    <string name="chat_audio_sending">Audio is sending.</string>
+    <string name="chat_video_sending">Video is sending.</string>
+    <string name="chat_video_send_failure">Video sent failure.</string>
+    <string name="chat_audio_send_failure">Audio sent failure.</string>
+    <string name="chat_video_send_success">Video sent success.</string>
+    <string name="chat_audio_send_success">Audio sent success.</string>
+
+    <!-- who check you out -->
+    <string name="must_unlock_to_view">You must unlock to view this screen</string>
+    <string name="dirty_word_alert_content">You have used words that are not allowed (\"%1$s\"), please re-enter!</string>
+
+    <!-- Get location address -->
+    <string name="get_location_address">Getting location address...</string>
+    <string name="cannot_get_location_address">Can not get location address</string>
+    <string name="must_have_sdcard_to_record">You have to mount sdcard to record.</string>
+    <string name="not_approved_buzz">This picture is being reviewed by our staff and will be visible to other shortly.</string>
+    <!-- Notification -->
+    <string name="image_approved">Your image is approved.</string>
+
+    <!-- ChatFragment -->
+    <string name="canot_use_videocall">You cannot use AndG\'s Video call feature while you are calling on your device. Please try again after finishing the call</string>
+    <string name="canot_use_voicecall">You cannot use AndG\'s Voice call feature while you are calling on your device. Please try again after finishing the call</string>
+    <string name="password_invalid">Password was changed, please retry login with new password.</string>
+    <!-- Get user info in ChatFragment -->
+    <string name="can_not_get_user_info">Can not get user info</string>
+    <!-- Notify when image has been deleted -->
+    <string name="image_deleted">Cannot access this image now. Please try again later!</string>
+    <!-- Buy point success -->
+    <string name="buy_point_success">Buy Point success.</string>
+
+    <!-- Choose Gift To Send -->
+    <string name="send_gift_price_free">Free</string>
+    <string name="send_gift_price_not_free">%1$s P</string>
+    <string name="invite_andg">I would like invite you try using AndG application!</string>
+    <!-- Pull to refresh -->
+    <string name="pull_to_refresh_time_update">Last Updated: %1$s</string>
+    <string name="pull_dateformat">HH:mm dd/MM/yyyy</string>
+    <!-- Play video in App -->
+    <string name="not_found_app_play_video">Not found applicaton play this video.</string>
+    <string name="activity_voip_mute">Mute</string>
+    <string name="activity_voip_speaker">Speaker</string>
+    <string name="activity_voip_end">End</string>
+    <string name="activity_voip_answer">Answer</string>
+    <!-- New call -->
+    <string name="activity_voip_answer_only_voice">Answer with Voice Only</string>
+    <string name="activity_voip_ignore">Ignore</string>
+    <string name="not_enought_to_voice_call">Not enough points to execute voice call. You currently have %1$s. Please top up your points!</string>
+    <string name="not_enought_to_video_call">Not enough points to execute video call. You currently have %1$s. Please top up your points!</string>
+    <string name="not_enough_point_to_send_this_message">Not enough point to send this message</string>
+    <string name="need_update_app">Please update newest version of the app from Google Play</string>
+    <string name="invalid_birthday">Birthday invalid, please check your Date &amp; Time setting</string>
+    <string name="start_shake_to_chat">&#8230;</string>
+    <string name="request_cancel">Request cancelled</string>
+    <string name="must_have_sdcard_to_download_file">You must have sdcard to download this file.</string>
+    <string name="fg_change_email_current_email_description">You are currently using this email address.</string>
+    <string name="fg_change_email_current_confirm_pass_hint">password</string>
+    <string name="fg_change_email_current_submit_button">Update</string>
+    <string name="fg_change_email_current_new_email_description">New email address</string>
+    <string name="fg_change_email_current_new_email_hint">email address</string>
+    <string name="fg_change_email_current_confirm_pass_description">Password</string>
+    <string name="fg_change_email_dialog_error_title">New email address</string>
+    <string name="fg_change_email_dialog_success_title">Change email success</string>
+    <string name="profile_title_change_email">Change email</string>
+    <string name="settings_online_alert">Online Alerts</string>
+    <string name="change">Change</string>
+
+</resources>

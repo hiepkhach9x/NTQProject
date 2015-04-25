@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/collection_button_meetpeople_search_setting"
+        style="@style/text_view_panel"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_pannel_search"
+        android:text="@string/search" />
+
+    <TextView
+        android:id="@+id/collection_button_meetpeople_txt_whocheckout"
+        style="@style/text_view_panel"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_pannel_whocheckme"
+        android:text="@string/who_checked_you_out" />
+
+    <TextView
+        android:id="@+id/collection_button_meetpeople_txt_winkbomb"
+        style="@style/text_view_panel"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_pannel_winkbomb"
+        android:text="@string/wink_bomb" />
+
+    <TextView
+        android:id="@+id/collection_button_meetpeople_txt_sort"
+        style="@style/text_view_panel"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_pannel_list"
+        android:text="@string/list_view" />
+
+</LinearLayout>

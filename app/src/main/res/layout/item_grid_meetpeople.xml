@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_grid_meetpeople_layout_frm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.vtcstudios.ntqproject.View.RecyclingImageView
+        android:id="@+id/item_grid_meetpeople_img_avatar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/image_thumbnail_size"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:contentDescription="@string/image_desciption"
+        android:src="@drawable/default_avata"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/item_grid_meetpeople_img_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="@dimen/meetpeople_margin_common"
+        android:layout_marginTop="@dimen/meetpeople_margin_common"
+        android:contentDescription="@string/image_desciption"
+        android:src="@drawable/ic_status_online_grid_view" />
+
+    <ImageView
+        android:id="@+id/item_grid_meetpeople_img_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="@dimen/meetpeople_margin_common"
+        android:layout_marginTop="@dimen/meetpeople_margin_common"
+        android:contentDescription="@string/image_desciption"
+        android:src="@drawable/ic_menu_item_notification"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/item_grid_meetpeople_txt_name"
+        style="@style/andG_meetpeople_txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/meetpeople_margin_common"
+        android:layout_marginLeft="@dimen/meetpeople_margin_common"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/meetpeople_name_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_grid_meetpeople_txt_notification"
+        style="@style/text_type_sliding_menu_right_item_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@drawable/ic_menu_item_notification"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/meetpeople_margin_common"
+        android:layout_marginTop="@dimen/meetpeople_margin_common"
+        android:visibility="visible" />
+
+</FrameLayout>

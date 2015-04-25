@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/navigation_bar" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/bg_common_email"
+        android:layout_marginRight="@dimen/common_size_8dp"
+        android:layout_marginTop="@dimen/common_margin"
+        android:layout_marginLeft="@dimen/common_size_8dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="@dimen/sd_text_size_medium"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_ethnicity_item_text_view_margin"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/common_email" />
+
+        <EditText
+            android:id="@+id/mTextRegisterMail"
+            android:layout_width="fill_parent"
+            android:paddingLeft="@dimen/common_size_60dp"
+            android:layout_height="fill_parent"
+            android:gravity="center|right"
+            style="@style/content_item_edit_text_list_group_item"
+            android:background="@null"
+            android:focusable="true"
+            android:hint="@string/common_enter_email" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/bg_common_password"
+        android:layout_marginRight="@dimen/common_size_8dp"
+        android:layout_marginLeft="@dimen/common_size_8dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_ethnicity_item_text_view_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/sd_text_size_medium"
+            android:textColor="@color/black"
+            android:text="@string/common_password" />
+
+        <EditText
+            android:id="@+id/mTextRegisterPass"
+            android:layout_width="fill_parent"
+            android:paddingLeft="@dimen/common_size_60dp"
+            android:ellipsize="end"
+            style="@style/content_item_edit_text_list_group_item"
+            android:layout_height="fill_parent"
+            android:inputType="textPassword"
+            android:gravity="center|right"
+            android:background="@null"
+            android:hint="@string/common_enter_password" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/mSign_Up"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/standard_horizontal_item_height"
+        android:layout_marginTop="@dimen/common_size_10dp"
+        android:layout_marginRight="@dimen/common_size_8dp"
+        android:layout_marginLeft="@dimen/common_size_8dp"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sd_text_size_medium"
+        android:background="@drawable/btn_background"
+        android:text="@string/signup_sign_up" />
+</LinearLayout>

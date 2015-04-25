@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/navigation_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/nav_layout_height"
+        android:background="@drawable/nav_background"
+        android:layout_centerVertical="true"
+        android:paddingBottom="@dimen/cv_navigation_bar_btn_left_margin">
+
+        <ImageButton
+            android:id="@+id/cv_navigation_bar_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cv_navigation_bar_image_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/cv_navigation_bar_btn_left_margin"
+            android:background="@drawable/nav_btn_background"
+            android:lines="1"
+            android:layout_marginTop="@dimen/cv_navigation_bar_btn_padding"
+            android:textSize="@dimen/sd_text_size_medium"
+            android:src="@drawable/nav_btn_back"
+            android:textStyle="bold"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/cv_navigation_bar_text_center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cv_navigation_bar_image_height"
+            android:layout_marginTop="@dimen/cv_navigation_bar_btn_padding"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/text_title_tab_widget_with_bg_color_nomal"
+            android:textStyle="bold"
+            android:textSize="@dimen/sd_text_size_medium"
+            android:text="@string/common_app_name" />
+
+        <TextView
+            android:id="@+id/cv_navigation_bar_tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cv_navigation_bar_image_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/cv_navigation_bar_btn_right_margin"
+            android:layout_marginTop="@dimen/cv_navigation_bar_btn_padding"
+            android:background="@drawable/nav_btn_background"
+            android:gravity="center_vertical"
+            android:text="@string/login_forgot"
+            android:textColor="@color/text_nav_btn_color"
+            android:textSize="@dimen/sd_text_size_medium"
+            android:visibility="gone"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/cv_navigation_bar_btn_right"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/cv_navigation_bar_btn_padding"
+            android:layout_height="@dimen/cv_navigation_bar_image_height"
+            android:layout_marginRight="@dimen/cv_navigation_bar_btn_right_margin"
+            android:background="@drawable/nav_btn_background"
+            android:lines="1"
+            android:src="@drawable/nav_message"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/cv_navigation_bar_txt_notification"
+            style="@style/text_type_sliding_menu_right_item_notification"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_item_notification"
+            android:gravity="center" />
+    </RelativeLayout>
+</merge>
